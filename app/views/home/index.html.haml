@@ -1,0 +1,17 @@
+%p Hola Mundo
+%p Hola piumis
+
+.hola.otra-clase.otra-mas
+  %span tal cosa
+#riubs
+  %p con su carita
+  - 20.times do |i|
+    .score{:class => "rating-icon-#{i}"}
+      =i
+      .score-shadow
+    
+  .productos
+    - @productos.each do |p|
+      %p Name #{p[:name]}
+      %p Code #{p[:code]}
+      %br

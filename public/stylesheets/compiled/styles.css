@@ -1,0 +1,39 @@
+/* line 1, ../../../app/stylesheets/styles.sass */
+#root {
+  width: 960px;
+  margin: 0 auto;
+  border: 1px dashed black;
+  height: 2000px;
+  padding: 20px;
+}
+
+/* line 7, ../../../app/stylesheets/styles.sass */
+p {
+  color: red;
+}
+
+/* line 10, ../../../app/stylesheets/styles.sass */
+.hola {
+  color: blue;
+}
+
+/* line 13, ../../../app/stylesheets/styles.sass */
+.score, .score-shadow {
+  height: 30px;
+  float: left;
+  width: 30px;
+  border: 1px solid #aaaaaa;
+}
+
+/* line 18, ../../../app/stylesheets/styles.sass */
+.score {
+  position: relative;
+}
+/* line 20, ../../../app/stylesheets/styles.sass */
+.score .score-shadow {
+  display: none;
+  height: 15px;
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+}
